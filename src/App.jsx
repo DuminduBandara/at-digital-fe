@@ -8,9 +8,9 @@ function App() {
   return (
     <>
       {isTabletOrMobile ? (
-        <h1 className="text-3xl font-bold underline">Hello Mobile</h1>
+        <h1 className="text-3xl font-bold text-success">Hello Mobile</h1>
       ) : (
-        <h1 className="text-3xl font-bold underline">Hello Desktop</h1>
+        <h1 className="text-3xl font-bold t">Hello Desktop</h1>
       )}
     </>
   );
